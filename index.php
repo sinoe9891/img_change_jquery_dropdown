@@ -71,7 +71,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: black;
                 background-color: #01597A; }
-        
+
 
   </style>
   <script type="text/javascript">
@@ -119,22 +119,14 @@
       <option class="mapa1" value="./images/map-03.jpg">Lidar</option>
   </select>
   </div>
+  <div class="mapa2">
+  <select  class="dropdown" name="kitchen_color" id="kitchen_color" onchange="setImage(this);">
+      <option  class="mapa2" value="./images/map-01.jpg">Inundaciones</option>
+      <option class="mapa2" value="./images/map-02.jpg">Deslizamientos</option>
+      <option class="mapa2" value="./images/map-03.jpg">Lidar</option>
+  </select>
+  </div>
   <div><p></p></div>
-  <div id="contenido">
-  <div class="menu">
-    <button data-style="mapa1">
-     +
-    </button>
-    <button data-style="mapa2">
-     -
-    </button>
-  </div>
-  <div id="articulo">
-    <h1>
-      DEMO PGRD
-    </h1>
-  </div>
-</div>
   <br />
   <img src="./images/map-01.jpg" name="image-swap" class="mapa1" />
 
